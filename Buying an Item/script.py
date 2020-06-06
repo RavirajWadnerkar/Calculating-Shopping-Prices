@@ -2,9 +2,9 @@ items = {'apple': 2, 'banana': 4, 'orange': 6}
 for item_name in items:
     print('--------------------------------------------------')
     print('Each ' + item_name + ' costs ' + str(items[item_name]) + ' dollars')
-    print('How many ' + item_name + ' s do you want?:')
+   
     # Receive a value by using input(), and assign it to the input_count variable
-    input_count = input()
+    input_count = input('How many ' + item_name + 's do you want?: ')
     # Print 'You will buy ___ ___s' by using input_count and item_name
     print('You will buy ' + input_count + ' ' + item_name + 's')
     
